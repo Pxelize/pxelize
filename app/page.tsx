@@ -41,7 +41,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="space-y-7 lg:space-y-10">
+        <div className="space-y-7">
           <span className="text-base lg:text-lg text-zinc-300 px-12 lg:px-0">Trusted by</span>
 
           <div className="flex items-center gap-10 lg:gap-16 opacity-80 overflow-x-auto px-12 lg:px-0 scrollbar-none">
@@ -54,7 +54,7 @@ export default function Home() {
               />
             </div>
             
-            <div className="relative aspect-video min-w-[10rem] lg:min-w-[12rem]">
+            <div className="relative aspect-[16/5] min-w-[10rem] lg:min-w-[12rem]">
               <Image
                 className="object-contain"
                 src="/trusted/volvo.svg"
@@ -72,7 +72,7 @@ export default function Home() {
               />
             </div>
             
-            <div className="relative aspect-video min-w-[8rem] lg:min-w-[12rem]">
+            <div className="relative aspect-[16/5] min-w-[8rem] lg:min-w-[12rem]">
               <Image
                 className="object-contain"
                 src="/trusted/honda.svg"
@@ -107,8 +107,8 @@ export default function Home() {
 
           <svg width="0" height="0" aria-hidden="true" focusable="false">
             <linearGradient id="arrow_gradient" x2="1" y2="1">
-              <stop stop-color="#F43F5E"/>
-              <stop offset="0.880208" stop-color="#7C3AED"/>
+              <stop stopColor="#F43F5E"/>
+              <stop offset="0.880208" stopColor="#7C3AED"/>
             </linearGradient>
           </svg>
 
