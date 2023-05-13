@@ -45,7 +45,7 @@ export default function Home() {
           <span className="text-base lg:text-lg text-zinc-300 px-12 lg:px-0">Trusted by</span>
 
           <div className="flex items-center gap-10 lg:gap-16 opacity-80 overflow-x-auto px-12 lg:px-0 scrollbar-none">
-            <div className="relative aspect-video min-w-[7rem] lg:min-w-[8rem]">
+            <div className="relative aspect-video min-w-[7rem] lg:min-w-[9rem]">
               <Image
                 className="object-contain"
                 src="/trusted/nanotech.png"
@@ -54,7 +54,7 @@ export default function Home() {
               />
             </div>
             
-            <div className="relative aspect-[16/5] min-w-[10rem] lg:min-w-[12rem]">
+            <div className="relative aspect-[16/5] min-w-[10rem] lg:min-w-[13rem]">
               <Image
                 className="object-contain"
                 src="/trusted/volvo.svg"
@@ -72,7 +72,7 @@ export default function Home() {
               />
             </div>
             
-            <div className="relative aspect-[16/5] min-w-[8rem] lg:min-w-[12rem]">
+            <div className="relative aspect-[16/5] min-w-[8rem] lg:min-w-[10rem]">
               <Image
                 className="object-contain"
                 src="/trusted/honda.svg"
