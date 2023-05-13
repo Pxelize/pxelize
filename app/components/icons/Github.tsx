@@ -1,6 +1,6 @@
 interface IconProps extends React.SVGProps<SVGSVGElement> {}
 
-export function GithubIcon(props: IconProps) {
+export function GitHubIcon(props: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,7 @@ import clsx from "clsx"
 import { ArrowRightIcon, HeartIcon } from '@heroicons/react/24/solid'
 import { InstagramIcon } from "./components/icons/Instagram"
 import { TwitterIcon } from "./components/icons/Twitter"
-import { GithubIcon } from "./components/icons/Github"
+import { GitHubIcon } from "./components/icons/GitHub"
 
 const lexendMega = Lexend_Mega({ subsets: ["latin"] })
 
@@ -96,8 +96,8 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/20 pt-10 lg:pt-20 flex flex-col lg:flex-row gap-6 lg:justify-between px-12 lg:px-0">
-        <div className="flex gap-4">
-          <p className="font-light flex gap-2">
+        <div className="flex gap-4 whitespace-nowrap">
+          <p className="text-sm lg:text-base font-light flex gap-2">
             <span>Made with</span>
 
             <HeartIcon className="w-6 h-6 text-red-500" />
@@ -124,8 +124,8 @@ export default function Home() {
             <TwitterIcon className="w-6 h-6" />
           </Link>
           
-          <Link href="https://github.com/pxelize" target="_blank">
-            <GithubIcon className="w-6 h-6" />
+          <Link href="https://gitHub.com/pxelize" target="_blank">
+            <GitHubIcon className="w-6 h-6" />
           </Link>
         </div>
       </footer>
