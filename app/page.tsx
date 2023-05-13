@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/20 pt-10 lg:pt-20 flex flex-col lg:flex-row gap-6 lg:justify-between px-12 lg:px-0">
-        <div className="flex gap-4 whitespace-nowrap">
+        <div className="flex gap-4 whitespace-nowrap text-zinc-300">
           <p className="text-sm lg:text-base font-light flex gap-2">
             <span>Made with</span>
 
