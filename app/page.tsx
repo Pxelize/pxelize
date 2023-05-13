@@ -116,15 +116,15 @@ export default function Home() {
         </div>
 
         <div className="flex gap-6">
-          <Link href="https://instagram.com/pxelize">
+          <Link href="https://instagram.com/pxelize" target="_blank">
             <InstagramIcon className="w-6 h-6" />
           </Link>
           
-          <Link href="https://twitter.com/pxelize">
+          <Link href="https://twitter.com/pxelize" target="_blank">
             <TwitterIcon className="w-6 h-6" />
           </Link>
           
-          <Link href="https://github.com/pxelize">
+          <Link href="https://github.com/pxelize" target="_blank">
             <GithubIcon className="w-6 h-6" />
           </Link>
         </div>
