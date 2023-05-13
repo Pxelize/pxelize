@@ -6,8 +6,8 @@ import './globals.css'
 const lexendExa = Lexend_Exa({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Pxelize',
-  description: 'Designing software with purpose —— We are a design-driven software development studio.',
+  title: 'Pxelize: Designing software with purpose',
+  description: 'We are a design-driven software development studio.',
 }
 
 export default function RootLayout({
