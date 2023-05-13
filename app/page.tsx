@@ -41,7 +41,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="space-y-7">
+        <div className="space-y-7 lg:space-y-8">
           <span className="text-base lg:text-lg text-zinc-300 px-12 lg:px-0">Trusted by</span>
 
           <div className="flex items-center gap-10 lg:gap-16 opacity-80 overflow-x-auto px-12 lg:px-0 scrollbar-none">
