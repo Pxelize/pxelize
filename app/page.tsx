@@ -31,7 +31,7 @@ export default function Home() {
           <h1 className={clsx(["text-4xl lg:text-6xl font-semibold bg-gradient-to-r from-rose-500 to-violet-600 bg-clip-text text-transparent tracking-[-0.16em] -mx-2", lexendMega.className])}>
             <span>Designing software with </span>
 
-            <br className="hidden lg:block" />
+            <br className="hidden sm:block" />
 
             <span>purpose</span>
           </h1>
